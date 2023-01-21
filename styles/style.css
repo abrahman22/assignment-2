@@ -250,13 +250,23 @@ Offers Section
 /* =========
 some facts
 ===========*/
+.facts-title {
+    font-size: 45px;
+}
+#facts-description{
+    width: 542px;
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 15px;
+}
 .facts-container {
     text-align: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
     /* border: 2px solid #FF900E; */
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .facts-container .fact {
@@ -266,22 +276,16 @@ some facts
     border: 1px solid #FF900E;
     border-radius: 8px;
 }
-.some-facts > h3 {
-    font-size: 45px;
-}
-
 .some-facts .facts-container .fact div p {
     font-weight: 600;
     font-size: 90px;
     color: #727272;
 
 }
-.some-facts .description{
-    width: 542px;
-}
-.fact .title{
-    color: #424242
-    ;
+.fact > div > h3 {
+    font-size: 45px;
+    color: #424242;
+    padding-bottom: 10px;
 }
 .fact img{
     padding: 20px 0;
@@ -290,8 +294,7 @@ some facts
     font-size: 20px;
 }
 .some-facts .facts-container .fact:hover{
-    background-color: #FF900E;
-    
+    background-color: #FF900E;    
 }
 
 
