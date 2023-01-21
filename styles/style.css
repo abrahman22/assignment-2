@@ -310,7 +310,7 @@ Media Queries
 @media only screen and (max-width:576px) {
 
     body {
-        width: auto;        
+        width: 100%;        
     }
     .container{
         margin: 0 auto;
@@ -372,6 +372,18 @@ Media Queries
         top: 1855px;
         left: 640px;
     }
-
+    /* facts */
+    .facts-header-part{
+        text-align: center;
+    }
+    .facts-container {
+       flex-direction: column;
+    }
+    .facts-container .fact {
+        margin-bottom: 30px;
+    }
+    #facts-description{
+        margin: 10px auto;
+    }
 
 }
