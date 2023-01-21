@@ -247,7 +247,50 @@ Offers Section
 #button .btn-secondary h3 {
     font-size: 40px;
 }
+/* =========
+some facts
+===========*/
+.facts-container {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid #FF900E; */
+    margin-top: 100px;
+}
 
+.facts-container .fact {
+    width: 200px;
+    height: 200px;
+    padding: 46px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
+
+.some-facts .facts-container .fact div p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+
+}
+.some-facts .description{
+    width: 542px;
+}
+.fact .title{
+    color: #424242
+    ;
+}
+.fact img{
+    padding: 20px 0;
+}
+.some-facts .facts-container .fact div p{
+    font-size: 20px;
+}
+.some-facts .facts-container .fact:hover{
+    background-color: #FF900E;
+    
+}
 
 
 
