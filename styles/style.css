@@ -262,10 +262,11 @@ Media Queries
 @media only screen and (max-width:576px) {
 
     body {
-        width: 576px;
+        width: auto;        
+    }
+    .container{
         margin: 0 auto;
     }
-
     header {
         background-color: #fff;
     }
@@ -281,6 +282,12 @@ Media Queries
     .navigation nav ul li {
         margin: 10px 0;
     }
+    .header-banner {
+        text-align: center;
+    }
+    .header-banner img {
+        width: 576px;        
+    }
 
     /* info section */
     header .container .header-info-section {
@@ -290,6 +297,7 @@ Media Queries
     /* Feature */
     .our-features {
         flex-direction: column;
+        margin-top: -280px;
     }
 
     .features-images {
@@ -305,6 +313,7 @@ Media Queries
     /* offers section */
     .offers-features {
         flex-direction: column;
+        margin-top: -100px;
     }
 
     .offer-banner {
@@ -315,5 +324,6 @@ Media Queries
         top: 1855px;
         left: 640px;
     }
+
 
 }
