@@ -266,11 +266,13 @@ some facts
     border: 1px solid #FF900E;
     border-radius: 8px;
 }
-
+.some-facts > h3 {
+    font-size: 45px;
+}
 
 .some-facts .facts-container .fact div p {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 90px;
     color: #727272;
 
 }
