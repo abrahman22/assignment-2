@@ -247,19 +247,22 @@ Offers Section
 #button .btn-secondary h3 {
     font-size: 40px;
 }
+
 /* =========
 some facts
 ===========*/
-.facts-title {
+.title {
     font-size: 45px;
 }
-#facts-description{
+
+.description {
     width: 542px;
     color: #727272;
     font-size: 16px;
     line-height: 26px;
     margin-top: 15px;
 }
+
 .facts-container {
     text-align: center;
     display: flex;
@@ -276,30 +279,52 @@ some facts
     border: 1px solid #FF900E;
     border-radius: 8px;
 }
+
 .some-facts .facts-container .fact div p {
     font-weight: 600;
     font-size: 90px;
     color: #727272;
 
 }
-.fact > div > h3 {
+
+.fact>div>h3 {
     font-size: 45px;
     color: #424242;
     padding-bottom: 10px;
 }
-.fact img{
+
+.fact img {
     padding: 20px 0;
 }
-.some-facts .facts-container .fact div p{
+
+.some-facts .facts-container .fact div p {
     font-size: 20px;
 }
-.some-facts .facts-container .fact:hover{
-    background-color: #FF900E;    
+
+.some-facts .facts-container .fact:hover {
+    background-color: #FF900E;
 }
 
+/* ============
+Our Sponsors
+=============*/
+.our-sponsors-section {
+    margin-top: 130px;
+}
 
+.sponsors-header-part,
+.sponsors-header-part>p {
+    text-align: center;
+    margin: 20px auto;
+}
 
-
+.sponsors-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
 
 
 /* =============
@@ -310,11 +335,13 @@ Media Queries
 @media only screen and (max-width:576px) {
 
     body {
-        width: 100%;        
+        width: 100%;
     }
-    .container{
+
+    .container {
         margin: 0 auto;
     }
+
     header {
         background-color: #fff;
     }
@@ -330,11 +357,13 @@ Media Queries
     .navigation nav ul li {
         margin: 10px 0;
     }
+
     .header-banner {
         text-align: center;
     }
+
     .header-banner img {
-        width: 576px;        
+        width: 576px;
     }
 
     /* info section */
@@ -372,18 +401,33 @@ Media Queries
         top: 1855px;
         left: 640px;
     }
+
     /* facts */
-    .facts-header-part{
+    .facts-header-part {
         text-align: center;
     }
-    .facts-container {
-       flex-direction: column;
+
+    .description {
+        margin: 10px auto;
     }
+
+    .facts-container {
+        flex-direction: column;
+    }
+
     .facts-container .fact {
         margin-bottom: 30px;
     }
-    #facts-description{
-        margin: 10px auto;
+
+    /* sponsors */
+    .our-sponsors-section{
+        margin-top: 80px;
+    }
+    .sponsors-container {
+        flex-direction: column;
+    }
+    .sponsors-container .sponsor {
+        margin-bottom: 40px;
     }
 
 }
