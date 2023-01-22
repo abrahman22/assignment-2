@@ -4,6 +4,7 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 body {
@@ -326,6 +327,64 @@ Our Sponsors
     margin-top: 50px;
 }
 
+/* ==============
+Form 
+=============*/
+.form-section {
+    margin-top: 150px;
+    background-color: #fbec9f;
+    padding: 60px 50px;
+    border-radius: 10px;
+}
+
+.form-section h3 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-size: 25px;
+    color: #424242;
+    margin-bottom: 10px;
+}
+
+/* input{
+    width: 50%;
+    height: 50px;
+    margin-bottom: 25px;
+} */
+input[type=text],
+input[type=email] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+/* =========================
+copyright section
+============================== */
+.copyright-section {
+    background-color: rgba(255, 143, 15, 0.274);
+    color: #6b6864;
+    text-align: center;
+    /* justify-items: center; */
+    padding: 40px 0px;
+    margin: 130px 0 100px;
+}
+
+
 
 /* =============
 Media Queries 
@@ -336,11 +395,12 @@ Media Queries
 
     body {
         width: 100%;
-    }
-
-    .container {
         margin: 0 auto;
     }
+
+    /* .container {
+        margin: 0 auto;
+    } */
 
     header {
         background-color: #fff;
@@ -420,14 +480,28 @@ Media Queries
     }
 
     /* sponsors */
-    .our-sponsors-section{
+    .our-sponsors-section {
         margin-top: 80px;
     }
+
     .sponsors-container {
         flex-direction: column;
     }
+
     .sponsors-container .sponsor {
         margin-bottom: 40px;
     }
+
+    /* contact us */
+    label, input[type=text], input[type=email], textarea, #form-button{
+        text-align: center;   
+    }
+   input:last-child{
+    text-align: center;
+   }
+   .copyright-section{
+    text-align: center;
+    margin: 80px 0 80px;
+   }
 
 }
