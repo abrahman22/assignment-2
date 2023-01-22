@@ -398,10 +398,9 @@ Media Queries
         margin: 0 auto;
     }
 
-    /* .container {
+    .container {
         margin: 0 auto;
-    } */
-
+    }
     header {
         background-color: #fff;
     }
@@ -494,7 +493,7 @@ Media Queries
 
     /* contact us */
     label, input[type=text], input[type=email], textarea, #form-button{
-        text-align: center;   
+        text-align: center;  
     }
    input:last-child{
     text-align: center;
