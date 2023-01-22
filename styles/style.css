@@ -1,10 +1,12 @@
 /* work sans google font */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@700&display=swap');
 
+/* =================
+Common Styles 
+====================*/
 * {
     margin: 0;
     padding: 0;
-
 }
 
 body {
@@ -45,9 +47,9 @@ body {
     padding: 21px 24px 20px 25px;
 }
 
-/* -------------
+/* ============
     Header 
--------------*/
+===============*/
 
 /* Menu */
 header {
@@ -139,7 +141,6 @@ Features Section
     width: 537px;
     font-weight: 500;
     line-height: 53px;
-    /* background-color: #ffd5a6; */
 }
 
 .features-description h3 {
@@ -269,7 +270,6 @@ some facts
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* border: 2px solid #FF900E; */
     margin-top: 80px;
 }
 
@@ -306,9 +306,9 @@ some facts
     background-color: #FF900E;
 }
 
-/* ============
-Our Sponsors
-=============*/
+/* ===============
+    Our Sponsors
+===================*/
 .our-sponsors-section {
     margin-top: 130px;
 }
@@ -328,7 +328,7 @@ Our Sponsors
 }
 
 /* ==============
-Form 
+    Form 
 =============*/
 .form-section {
     margin-top: 150px;
@@ -348,14 +348,7 @@ label {
     color: #424242;
     margin-bottom: 10px;
 }
-
-/* input{
-    width: 50%;
-    height: 50px;
-    margin-bottom: 25px;
-} */
-input[type=text],
-input[type=email] {
+input[type=text], input[type=email] {
     box-sizing: border-box;
     width: 100%;
     padding: 12px 20px;
@@ -379,7 +372,6 @@ copyright section
     background-color: rgba(255, 143, 15, 0.274);
     color: #6b6864;
     text-align: center;
-    /* justify-items: center; */
     padding: 40px 0px;
     margin: 130px 0 100px;
 }
